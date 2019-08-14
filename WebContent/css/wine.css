@@ -1,0 +1,16 @@
+@charset "BIG5";
+
+
+.b{
+	background:    #6aa84f;
+	background:    linear-gradient(#6aa84f, #274e13);
+	border-radius: 1000px;
+	padding:       8px 20px;
+	color:         #ffffff;
+	display:       inline-block;
+	font:          normal normal 24px/1 "Zenhei", sans-serif;
+	text-align:    center;
+	text-shadow:   1px 1px #000000;
+}
+
+
