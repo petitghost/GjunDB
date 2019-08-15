@@ -1,5 +1,9 @@
 package com.model;
 
+import java.sql.SQLException;
+
+import com.dbDao.porder.query;
+
 public class porder {
 	private int syrah;
 	private int riesling;
@@ -11,7 +15,15 @@ public class porder {
 		this.syrah=syrah;
 		this.riesling=riesling;
 		this.pinot_noir=pinot_noir;
-		this.numberID=(int)(Math.random()*100)+"";
+		//numberID="72";
+		numberID=(int)(Math.random()*100)+"";
+		try {
+			while(query.querySth(numberID).isBeforeFirst()) {
+				numberID=(int)(Math.random()*100)+"";
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		
 		sum=syrah*699 + riesling*650 + pinot_noir*999;
 	}

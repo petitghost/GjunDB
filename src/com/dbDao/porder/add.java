@@ -29,7 +29,7 @@ public class add {
 	}
 	
 	public static void main(String[] args) {
-		//add.add(2,2,2);
+		//add.insert(new porder(2,5,2));
 
 	}
 
