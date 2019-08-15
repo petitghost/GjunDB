@@ -108,7 +108,7 @@
 			
 	</table>
 </form>
-
+<a href="../comfirmAdmin.jsp"> ¦^­º­¶
 
 </body>
 </html>

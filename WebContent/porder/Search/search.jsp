@@ -28,11 +28,9 @@
 
 <body>
 	
-	<table border=0 width="450" align=center>
-		
+	<table border=0 width="450" align=center>		
 		<tr hight="250" align=center >
 			<td width=50>訂單編號
-
 		
 		<tr align=center>
 			<%		
@@ -48,21 +46,16 @@
 								"<td>"+rs.getInt("pn")+
 								"<td>"+rs.getInt("sum")+
 								"<td>"+rs.getString("desk")+"</tr>");
-					}
-						
+					}						
 				}
 				else{
 					out.println("<td width=50>沒有資料");
 				}
-				out.println("</table>");
-				
+				out.println("</table>");				
 			%>
 		
-		<tr><td colspan=5 align=center><a href="../indexAdmin.jsp"> 回首頁</td>
-	
-	
+		<tr><td colspan=5 align=center><a href="../indexAdmin.jsp"> 回首頁</td>	
 	</table>
-
 
 
 </body>

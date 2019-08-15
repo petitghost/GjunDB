@@ -20,7 +20,7 @@
 		if(query.isQueryUser(User,Password))
 		{
 			if(query.isAdmin(User, Password)){
-				response.sendRedirect("porder/indexAdmin.jsp");
+				response.sendRedirect("comfirmAdmin.jsp");
 			}
 			else{
 				response.sendRedirect("porder/index.jsp");

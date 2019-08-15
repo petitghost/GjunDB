@@ -49,7 +49,7 @@
 			
 		
 		</tr>
-			
+		<tr><td colspan=3 align=center><a href="../member/index.jsp"> ­×§ï±K½X</td>
 	
 	
 	</table>

@@ -57,7 +57,6 @@ public class query {
 				return false;
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return false;
@@ -73,7 +72,7 @@ public class query {
 	
 	public static void main(String[] args) throws SQLException  {
 	
-		System.out.print(isAdmin("A","Admin"));
+		//System.out.print(isAdmin("A","Admin"));
 		/*ResultSet rs=query.queryUser("robert");
 		try {
 			if(rs.isBeforeFirst()) //判斷是否有此筆資料
