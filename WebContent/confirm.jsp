@@ -23,7 +23,7 @@
 				response.sendRedirect("comfirmAdmin.jsp");
 			}
 			else{
-				response.sendRedirect("porder/index.jsp");
+				response.sendRedirect("comfirmUser.jsp");
 				
 			}
 		}

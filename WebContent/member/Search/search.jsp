@@ -8,6 +8,9 @@
 <head>
 <meta charset="BIG5">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="../../css/index.css" />
+<link rel="stylesheet" type="text/css" href="../../css/button.css" />
+
 </head>
 <%
 String User=request.getParameter("user");
@@ -20,36 +23,60 @@ if(query.isUserExist(User)){
 %>
 
 <body>
+
+<div id="wrapper">
+	        <div id="header">
+	            <h1 align="center">歡迎光臨訂購系統</h1>
+	        </div>
+	        
+	        <div id="navigation" align="center">
+           		<h3 align="center">搜尋結果</h3>
+       		</div>
+       		
+      		<div id="content1" align="center">
+      		
+      		
+
 	<table border=0 width="450" align=center>
 		
-		<tr hight="250" align=center >
-			<td width=50>使用者資料
-
-		
+	
 		<tr align=center>
 			<%		
-				if(rs==null)
+				if(User=="")
 				{
-					out.println("<td width=50>使用者不存在");	
+					out.println("<br>請輸入使用者帳號<br>");	
 				}
 				else{
-					out.println("<table width=450 align=center border=1>"+
-							"<tr><td>User<td>Password<td>Level</tr>");
-					while(rs.next())
+					if(rs!=null)
 					{
-						out.print("<tr><td>"+rs.getString("user")+
-								"<td>"+rs.getString("password")+
-								"<td>"+rs.getString("level")+"</tr>");
+						out.println("<table width=450 align=center border=0>"+
+								"<tr><td>User<td>Password<td>Level</tr>");
+						while(rs.next())
+						{
+							out.print("<tr><td>"+rs.getString("user")+
+									"<td>"+rs.getString("password")+
+									"<td>"+rs.getString("level")+"</tr>");
+						}
+					}else{
+						out.println("<td width=50>使用者不存在");	
 					}
 				}
 				out.println("</table>");
 				
 			%>
 		
-		<tr><td colspan=5 align=center><a href="../indexAdmin.jsp"> 回首頁</td>
-	
-	
+			
 	</table>
+
+
+
+		</div>
+       		<br>
+			<div id="footer" align="center">	
+				
+			</div>
+
+		</div>
 
 
 </body>
