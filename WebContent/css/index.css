@@ -6,7 +6,9 @@ body {
 }
 
 p {
-    padding: 10px;
+    
+    font-size: 12px;
+    color: #ffffff;
 }
 
 #wrapper {
@@ -52,4 +54,6 @@ p {
     width: 1000px;
     background: #767F7E;
     clear: both;
+    font-size: 13px;
+    color: #ffffff;
 }

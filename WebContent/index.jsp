@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+    pageEncoding="UTF8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="BIG5">
+<meta charset="UTF8">
 <title>Insert title here</title>
 
 <link rel="stylesheet" type="text/css" href="css/index.css" />
@@ -15,40 +15,41 @@
 
 		<div id="wrapper">
 	        <div id="header">
-	            <h1 align="center">еw╙О╔За{╜qай╗t╡н</h1>
+	            <h1 align="center">Ф╜║Х©▌Е┘┴Х┤╗Х╗┌ХЁ╪ГЁ╩Г╣╠</h1>
 	        </div>
 	        
 	        <div id="navigation" align="center">
-           		<h3 align="center">╥|╜Ш╣n╓J</h3>
+           		<h3 align="center">Ф°┐Е⌠║Г≥╩Е┘╔</h3>
        		</div>
        		
       		<div id="content1" align="center">
-      		
+      		 Г╝║Г░├Х─┘Х╚▀Г≥╩Е┘╔ Admin:Admin<br>
       		
     		<form method="post" action="confirm.jsp">
 			<table border=0 width="450" align=center>
 				
 				<tr hight="250" align=center >
-					<td >╠b╦╧:
+					<td >Е╦ЁХ≥÷:
 					<input type="text" name="acount" value="">
 					</td>
 				<tr hight="250" align=center >
-					<td >╠K╫X:
+					<td >Е╞├Г╒╪:
 					<input type="password" name="password" value="">
 					</td>
 				<tr hight="250" align=center >
-					<td ><input type="submit" value="╣n╓J" size="20" class="b" ></td>
+					<td ><input type="submit" value="Г≥╩Е┘╔" size="20" class="b" ></td>
 					
 			</table>
 			</form>
 			
 			
-      			<input type="button" value="╣Ы╔U" onclick="location.href='member/Add/add.jsp'" class="b">
+      			<input type="button" value="Х╗╩Е├┼" onclick="location.href='member/Add/add.jsp'" class="b">
       			
       		</div>
+      		<br>
        		<br>
 			<div id="footer" align="center">	
-				
+				2019 Wine Order - Г╤╡И═│Х╗╜Х╗┬ by Petitghost 
 			</div>
 
 		</div>

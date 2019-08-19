@@ -73,7 +73,7 @@ if(query.isUserExist(User)){
 		</div>
        		<br>
 			<div id="footer" align="center">	
-				
+				2019 Wine Order - ºô­¶³]­p by Petitghost 
 			</div>
 
 		</div>
